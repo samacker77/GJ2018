@@ -1,0 +1,24 @@
+@import "../../../designmodo.github.io/Flat-UI/dist/css/flat-ui.min.css";
+body,h1,h2,h3,h4,h5,h6 {font-family: "Oswald", sans-serif;}
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	background: url('../images/layers/reference-100.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+    	font-size: 2.4em;
+    }
+}
+

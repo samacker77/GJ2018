@@ -1,0 +1,44 @@
+@import "../../../designmodo.github.io/Flat-UI/dist/css/flat-ui.min.css";
+body,h1,h2,h3,h4,h5,h6 {font-family: "Oswald", sans-serif;}
+html {
+	overflow-x: hidden;
+}
+body {
+	background: url('../images/layers/bg-100.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+a {
+	text-decoration: none !important;
+}
+/* This is not necessary*/
+.panes-environment .panes-container .pane {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 1%;
+  width: 60%;
+  height: 60%;
+  margin-left: 20%;
+  color: #000;
+  border-radius: 5%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*TODO DISPLAY:NONE A LAYER OR DIV BEFORE A BREAKPOINT IN SCROLL USING MAGIC SCROLL*/
+@-webkit-keyframes sdb03 {
+  0% {
+    opacity: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .panes-environment .panes-container .pane {
+	  
+	}
+
+}
