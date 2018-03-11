@@ -1625,7 +1625,8 @@ $('.card').on('click',function () {
         <i class='fa fa-circle' style='font-size:8px;'></i> A quiz will be conducted related to the Bollywood.<br>\
         <p></p>";
     var minute = "<h1 style='text-align:center'>Selfie Swag</h1>\
-        <h1>ABOUT</h1><p>\
+        <h1>ABOUT</h1>\
+        <p>1. The event is hosted on <a href='https://www.instagram.com/gyanjyoti2k18/' target='_blank'>Instagram</a>.<br>2. Send your pictures @ 8865837389.</p>\
         <h1>RULES</h1><p>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Single pics to be posted<br>\
         <i class='fa fa-circle' style='font-size:8px;'></i> Pic getting maximum like, share, comments<br>\
