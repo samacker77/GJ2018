@@ -1,0 +1,267 @@
+.invisible
+{
+    display: none;
+}
+.event-side-panel{
+  position: absolute;
+  z-index: 1000;
+  overflow: hidden;
+  display: none;
+   background: rgba(154,205,50,0.5);
+  width: 35%;
+  min-width: 380px;
+  margin-bottom: -100px;
+  height: 100%;
+  padding-top: 75px;
+  padding-left: 45px;
+ 
+  transition: all ease-out 0.5s;
+  color: white;
+}
+
+.r {
+  position: absolute;
+    right: 0;
+    
+}
+
+.event-side-panel:hover {
+  background: rgba(154,205,50,0.8);
+}
+
+#content-cat {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  padding-bottom: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#content-block {
+  height: 260px;
+  padding-left:  15px;
+  padding-right: 80px;
+}
+
+.content-text {
+  margin-top: 30px;
+  margin-bottom: 13px;
+  height: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+#event-description {
+  border-right: thick solid white;
+}
+
+#event-rules {
+  border-right: thick solid white;
+  margin-left: -5px;
+}
+
+#event-contacts {
+  border-right: thick solid white;
+  margin-left: -5px;
+}
+
+#event-schedule {
+  margin-left: -5px;
+}
+.wide-button
+{
+    width: 200px;
+}
+.half-button
+{
+    width: 150px;
+}
+.event-register {
+display: block;
+margin: 0 auto;
+height: 30px;
+        font-weight: 500;
+color: white;
+background: #7abd69;
+            border-radius: 5px;
+            border-width: 0px;
+            font-size: 14px;
+transition: all ease-out 0.5s;
+}
+.event-register:hover {
+box-shadow: 0px 2px 5px #fff;
+    background: #7dda65;
+}
+
+body {
+      margin: 0px;
+      background-image: url(../images/tree.html);
+
+}
+h1 {
+  margin-bottom: 0;
+}
+
+h4 {
+  margin-top: 5px;
+  margin-bottom: 45px;
+}
+
+.cat {
+  padding-right: 14px;
+    padding-left: 14px;
+}
+
+.cat:hover {
+  background-color: white;
+  color: black;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 65px;
+  margin-top: 115px;
+}
+
+#best-viewed {
+  margin-top: 3px;
+}
+
+#follow-us-icons a {
+  margin-top: -1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  color: white;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  webkit-font-smoothing: antialiased;
+  moz-osx-font-smoothing: grayscale;
+}
+
+
+.js .boxgallery, .js .panel {
+    background-image: url(../img/tree.html);
+    background-size: cover;
+}
+
+
+/* For mobile phones */
+@media only screen and (max-width: 768px) {
+.js .boxgallery, .js .panel {
+    background-image: url(../img/treemobile.html);
+    background-size: cover;
+}
+  h1 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  h4 {
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  #content-text {
+    margin-top: 30px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 80%;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  #event-container {
+
+    background: rgba(0,10,0,0.3);
+  }
+
+  .event-side-panel {
+      background: transparent;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: -100px;
+    margin-top: -35px;
+    height: 100%;
+    padding-top: 75px;
+    padding-left: 0px;
+    color: white;
+    text-align: center;
+  }
+
+  #content-cat {
+    margin-top: 45px;
+    display: block;
+    padding-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  #content-block {
+    height: 260px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 105px;
+  }
+
+  #best-viewed {
+    margin-top: 37px;
+  }
+
+  #follow-us-icons a {
+    margin-top: -11px;
+    color: white;
+  }
+
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    webkit-font-smoothing: antialiased;
+    moz-osx-font-smoothing: grayscale;
+  }
+
+}
+::-webkit-scrollbar {
+width: 0px;  /* remove scrollbar space */
+/* optional: just make scrollbar invisible */
+}
+
+::-webkit-scrollbar-thumb {
+  background-image : url('https://i.ytimg.com/vi/nbQ2ciQcJro/hqdefault.jpg');
+
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: transparent;
+  }
+
+#r0 {
+    display: inline-block;
+    
+}
+

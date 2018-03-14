@@ -1,0 +1,223 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vw;
+    min-width: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    text-align: left;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(http://tathva.org/tathva.org/tathva16/Website/Main/images/tree.jpg);
+}
+
+.js .boxgallery, .js .panel {
+    background-image: url(http://tathva.org/tathva.org/tathva16/Website/Main/images/tree.jpg);
+    background-size: cover;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#mobile-test {
+  display: block;
+    height: 0px;
+    width: 0px;
+}
+
+.lectures {
+    position: relative;
+    z-index: 500;
+    width: inherit;
+    height: inherit;
+    font-family: 'fashion_fetish_light';
+}
+
+.lectures-title {
+    font-size: 39px;
+}
+
+#layer {
+    height: 80%;
+    width: 80%;
+}
+
+.layer-box {
+    position: absolute;
+    top: -60%;
+    width: 100%;
+    height: 200%;
+    -webkit-transition: left ease-in 0.5s;
+    -o-transition: left ease-in 0.5s;
+    transition: left ease-in 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#lecture1 .layer-box{
+    left: -60%;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+#lecture2 .layer-box{
+    left: 60%;
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+#lecture3 .layer-box{
+    left: -60%;
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+#lecture4 .layer-box{
+    left: 60%;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+#lecture5 .layer-box{
+    left: 60%;
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+.lecture-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+    transition: all ease-out 0.5s;
+}
+
+.text-box {
+    position: absolute;
+    padding: 50px;
+    height: 300px;
+    width: 550px;
+    color: white;
+    -webkit-transition: all ease-out 0.5s;
+    -o-transition: all ease-out 0.5s;
+    transition: all ease-out 0.5s;
+}
+
+#lecture4 .text-box {
+    width: 584px;
+}
+
+#lecture1 .text-box {
+    bottom: 50px;
+    right: unset;
+}
+
+#lecture2 .text-box {
+    bottom: 50px;
+    right: 0px;
+}
+
+#lecture3 .text-box {
+    top: 50px;
+    right: unset;
+}
+
+#lecture3 .text-box {
+    top: 50px;
+    right: unset;
+}
+
+#lecture4 .text-box {
+    top: 50px;
+    right: 0px;
+}
+
+#lecture5 .text-box {
+    bottom: 50px;
+    right: 0px;
+}
+
+@font-face {
+    font-family: 'fashion_fetish_light';
+    src: url("font/fashion_fetish_light.ttf");
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .lectures {
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    .text-box {    
+        padding: 40px;
+        width: 100%;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        font-size: 12px; 
+    }
+    
+    .text-box:hover {
+        background-color: rgba(122, 189, 105,0.5);
+    }
+    
+    #lecture1 .text-box {
+        top: unset !important;
+        bottom: 0px !important;
+        right: unset !important;
+        left: unset !important;
+    }
+    
+    #lecture2 .text-box {
+        top: unset !important;
+        bottom: 0px !important;
+        right: unset !important;
+        left: unset !important;
+    }
+    
+    #lecture3 .text-box {
+        top: unset !important;
+        bottom: 0px !important;
+        right: unset !important;
+        left: unset !important;
+    }
+
+    #lecture4 .text-box {
+        top: unset !important;
+        bottom: 0px !important;
+        right: unset !important;
+        left: unset !important;
+    }
+
+    .lectures-title {    
+        font-size: 18px;
+    }
+
+    .layer-box {
+        -webkit-transform: none !important;
+            -ms-transform: none !important;
+                transform: none !important;
+        left: unset !important;
+    }
+    
+    .lecture-image {
+        width: 200%;
+    }
+    
+}

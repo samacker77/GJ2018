@@ -1,0 +1,43 @@
+.text1
+{
+  height: 150px;
+  overflow: auto;
+}
+.black-text
+{
+  color: black;
+}
+.highlight
+{
+  background-color: white;
+  opacity: 70%;
+}
+body
+{
+  background-image: url('https://render.fineartamerica.com/images/rendered/search/print/images-medium-5/treasure-map-and-doubloons-colin-and-linda-mckie.jpg');
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.side-panel
+{
+  background-color: limegreen;
+  color: white;
+  opacity: 0.75;
+  padding: 2.5%;
+}
+.inside-side
+{
+  padding: 2.5%;
+}
+.divider
+{
+  
+  border-left: thick solid white;
+  opacity: 0.75;
+}
