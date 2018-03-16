@@ -934,8 +934,8 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         1st Prize Rs.1500/-</p>\
-        1st Prize Rs.1000/-</p>\
-        1st Prize Gifts</p>\
+        2nd Prize Rs.1000/-</p>\
+        3rd Prize Gifts</p>\
         <h1>For Contact:</h1><p>\
         Luv Madaan (EC) - 9711845494</p>\
         </div>\
@@ -966,8 +966,8 @@ $('.card').on('click',function () {
         <div class='tab-pane' id='4a'>\
         <h1>PRIZES:</h1><p>\
         1st Prize Rs.1500/-</p>\
-        1st Prize Rs.1000/-</p>\
-        1st Prize Gifts</p>\
+        2nd Prize Rs.1000/-</p>\
+        3rd Prize Gifts</p>\
         <h1>For Contact:</h1><p>\
         Luv Madaan (EC) - 9711845494</p>\
         </div>\
