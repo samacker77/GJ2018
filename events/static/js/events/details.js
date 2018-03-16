@@ -1776,7 +1776,7 @@ $('.card').on('click',function () {
         </p>";
     var conclave = "<h1 style='text-align:center'>Much more events</h1>\
         <h1>ABOUT</h1>\
-        <p>Click on the below button to see more events.<br>\
+        <p>Click on the below button to see more events.<br><a href='fine.html' target='_blank'><button>Know More</button></a><br>\
         <h1></h1>\
         <p> <br>\</p>";
     var elmatrico = "</a><h1 style='text-align:center;display:inline-block;width:70%;'>PhysiZone</h1>\
